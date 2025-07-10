@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModularCrm.Application.Contracts\ModularCrm.Application.Contracts.csproj" />
-  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.HttpApi.Client\ModularCrm.Products.HttpApi.Client.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.HttpApi.Client\ModularCrm.Products.HttpApi.Client.csproj" /><ProjectReference Include="..\..\modules\ModularCrm.Ordering\src\ModularCrm.Ordering.HttpApi.Client\ModularCrm.Ordering.HttpApi.Client.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.HttpApi.Client" Version="8.3.0" />

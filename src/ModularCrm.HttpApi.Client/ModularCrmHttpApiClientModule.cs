@@ -8,6 +8,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.VirtualFileSystem;
 using ModularCrm.Products;
+using ModularCrm.Ordering;
 
 namespace ModularCrm;
 
@@ -21,6 +22,7 @@ namespace ModularCrm;
     typeof(AbpSettingManagementHttpApiClientModule)
 )]
 [DependsOn(typeof(ProductsHttpApiClientModule))]
+    [DependsOn(typeof(OrderingHttpApiClientModule))]
     public class ModularCrmHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";

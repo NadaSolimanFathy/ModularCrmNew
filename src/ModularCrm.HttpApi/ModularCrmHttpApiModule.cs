@@ -9,6 +9,7 @@ using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using ModularCrm.Products;
+using ModularCrm.Ordering;
 
 namespace ModularCrm;
 
@@ -22,6 +23,7 @@ namespace ModularCrm;
     typeof(AbpSettingManagementHttpApiModule)
     )]
 [DependsOn(typeof(ProductsHttpApiModule))]
+    [DependsOn(typeof(OrderingHttpApiModule))]
     public class ModularCrmHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

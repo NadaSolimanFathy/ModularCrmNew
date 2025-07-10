@@ -11,7 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ModularCrm.Domain\ModularCrm.Domain.csproj" />
     <ProjectReference Include="..\ModularCrm.Application.Contracts\ModularCrm.Application.Contracts.csproj" />
-  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Application\ModularCrm.Products.Application.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Application\ModularCrm.Products.Application.csproj" /><ProjectReference Include="..\..\modules\ModularCrm.Ordering\src\ModularCrm.Ordering.Application\ModularCrm.Ordering.Application.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Account.Application" Version="8.3.0" />

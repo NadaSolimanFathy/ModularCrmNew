@@ -41,6 +41,7 @@ using Volo.Abp.UI;
 using Volo.Abp.UI.Navigation;
 using Volo.Abp.VirtualFileSystem;
 using ModularCrm.Products.Web;
+using ModularCrm.Ordering.Web;
 
 namespace ModularCrm.Web;
 
@@ -58,6 +59,7 @@ namespace ModularCrm.Web;
     typeof(AbpSwashbuckleModule)
     )]
 [DependsOn(typeof(ProductsWebModule))]
+    [DependsOn(typeof(OrderingWebModule))]
     public class ModularCrmWebModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModularCrm.Domain.Shared\ModularCrm.Domain.Shared.csproj" />
-  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Domain\ModularCrm.Products.Domain.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Domain\ModularCrm.Products.Domain.csproj" /><ProjectReference Include="..\..\modules\ModularCrm.Ordering\src\ModularCrm.Ordering.Domain\ModularCrm.Ordering.Domain.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Emailing" Version="8.3.0" />

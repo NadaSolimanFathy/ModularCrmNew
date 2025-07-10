@@ -20,7 +20,7 @@
     <Content Remove="Logs\**" />
     <EmbeddedResource Remove="Logs\**" />
     <None Remove="Logs\**" />
-  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Web\ModularCrm.Products.Web.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\ModularCrm.Products\src\ModularCrm.Products.Web\ModularCrm.Products.Web.csproj" /><ProjectReference Include="..\..\modules\ModularCrm.Ordering\src\ModularCrm.Ordering.Web\ModularCrm.Ordering.Web.csproj" /></ItemGroup>
 
   <ItemGroup>
     <None Update="Pages\**\*.js">

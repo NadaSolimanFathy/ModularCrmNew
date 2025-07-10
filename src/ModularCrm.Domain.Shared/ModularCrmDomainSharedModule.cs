@@ -13,6 +13,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 using ModularCrm.Products;
+using ModularCrm.Ordering;
 
 namespace ModularCrm;
 
@@ -27,6 +28,7 @@ namespace ModularCrm;
     typeof(AbpTenantManagementDomainSharedModule)    
     )]
 [DependsOn(typeof(ProductsDomainSharedModule))]
+    [DependsOn(typeof(OrderingDomainSharedModule))]
     public class ModularCrmDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

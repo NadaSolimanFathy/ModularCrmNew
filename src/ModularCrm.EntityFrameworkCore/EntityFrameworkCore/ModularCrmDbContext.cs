@@ -14,6 +14,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using ModularCrm.Products.EntityFrameworkCore;
+using ModularCrm.Ordering.EntityFrameworkCore;
 
 namespace ModularCrm.EntityFrameworkCore;
 
@@ -92,6 +93,7 @@ public class ModularCrmDbContext :
         //    //...
         //});
         builder.ConfigureProducts();
+            builder.ConfigureOrdering();
         }
 
     public DbSet<Product> Products { get; set; }

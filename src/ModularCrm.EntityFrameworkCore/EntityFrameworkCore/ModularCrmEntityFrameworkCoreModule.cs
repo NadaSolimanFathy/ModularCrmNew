@@ -13,6 +13,7 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using ModularCrm.Products.EntityFrameworkCore;
+using ModularCrm.Ordering.EntityFrameworkCore;
 
 namespace ModularCrm.EntityFrameworkCore;
 
@@ -29,6 +30,7 @@ namespace ModularCrm.EntityFrameworkCore;
     typeof(AbpFeatureManagementEntityFrameworkCoreModule)
     )]
 [DependsOn(typeof(ProductsEntityFrameworkCoreModule))]
+    [DependsOn(typeof(OrderingEntityFrameworkCoreModule))]
     public class ModularCrmEntityFrameworkCoreModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

@@ -7,6 +7,7 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using ModularCrm.Products;
+using ModularCrm.Ordering;
 
 namespace ModularCrm;
 
@@ -21,6 +22,7 @@ namespace ModularCrm;
     typeof(AbpSettingManagementApplicationModule)
     )]
 [DependsOn(typeof(ProductsApplicationModule))]
+    [DependsOn(typeof(OrderingApplicationModule))]
     public class ModularCrmApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
