@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ModularCrm.Ordering": {
+      "path": "ModularCrm.Ordering.abpmdl"
+    }
+  }
+}

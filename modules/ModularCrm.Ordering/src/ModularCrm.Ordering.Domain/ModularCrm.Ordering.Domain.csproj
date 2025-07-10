@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ModularCrm.Ordering</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.3.0" />
+    <ProjectReference Include="..\ModularCrm.Ordering.Application.Contracts\ModularCrm.Ordering.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ModularCrm.Ordering.Domain.Shared\ModularCrm.Ordering.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

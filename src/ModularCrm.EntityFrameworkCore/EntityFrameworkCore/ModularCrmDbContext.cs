@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ModularCrm.Ordering.Entities;
 using ModularCrm.Products;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -22,12 +23,14 @@ namespace ModularCrm.EntityFrameworkCore;
 [ReplaceDbContext(typeof(ITenantManagementDbContext))]
 [ConnectionStringName("Default")]
 [ReplaceDbContext(typeof(IProductsDbContext))]
+[ReplaceDbContext(typeof(IOrderingDbContext))]
+
 
 public class ModularCrmDbContext :
     AbpDbContext<ModularCrmDbContext>,
     IIdentityDbContext,
     ITenantManagementDbContext,
-    IProductsDbContext
+    IProductsDbContext,IOrderingDbContext 
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
 
@@ -92,9 +95,11 @@ public class ModularCrmDbContext :
         //    b.ConfigureByConvention(); //auto configure for the base class props
         //    //...
         //});
-        builder.ConfigureProducts();
-            builder.ConfigureOrdering();
+        builder.ConfigureProducts(); 
+        builder.ConfigureOrdering();
         }
 
     public DbSet<Product> Products { get; set; }
+    public DbSet<Order> Orders { get; set; } 
+
 }
