@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ModularCrm.Products.Domain.Shared": {
+      "path": "src/ModularCrm.Products.Domain.Shared/ModularCrm.Products.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Domain": {
+      "path": "src/ModularCrm.Products.Domain/ModularCrm.Products.Domain.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Application.Contracts": {
+      "path": "src/ModularCrm.Products.Application.Contracts/ModularCrm.Products.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Application": {
+      "path": "src/ModularCrm.Products.Application/ModularCrm.Products.Application.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.EntityFrameworkCore": {
+      "path": "src/ModularCrm.Products.EntityFrameworkCore/ModularCrm.Products.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.MongoDB": {
+      "path": "src/ModularCrm.Products.MongoDB/ModularCrm.Products.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.HttpApi": {
+      "path": "src/ModularCrm.Products.HttpApi/ModularCrm.Products.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.HttpApi.Client": {
+      "path": "src/ModularCrm.Products.HttpApi.Client/ModularCrm.Products.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.TestBase": {
+      "path": "test/ModularCrm.Products.TestBase/ModularCrm.Products.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.EntityFrameworkCore.Tests": {
+      "path": "test/ModularCrm.Products.EntityFrameworkCore.Tests/ModularCrm.Products.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.MongoDB.Tests": {
+      "path": "test/ModularCrm.Products.MongoDB.Tests/ModularCrm.Products.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.Domain.Tests": {
+      "path": "test/ModularCrm.Products.Domain.Tests/ModularCrm.Products.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.Application.Tests": {
+      "path": "test/ModularCrm.Products.Application.Tests/ModularCrm.Products.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.HttpApi.Host": {
+      "path": "host/ModularCrm.Products.HttpApi.Host/ModularCrm.Products.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.Web": {
+      "path": "src/ModularCrm.Products.Web/ModularCrm.Products.Web.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ModularCrm.Products.HttpApi.Client.ConsoleTestApp/ModularCrm.Products.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ModularCrm.Products.Web.Host": {
+      "path": "host/ModularCrm.Products.Web.Host/ModularCrm.Products.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.AuthServer": {
+      "path": "host/ModularCrm.Products.AuthServer/ModularCrm.Products.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.Host.Shared": {
+      "path": "host/ModularCrm.Products.Host.Shared/ModularCrm.Products.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.Web.Unified": {
+      "path": "host/ModularCrm.Products.Web.Unified/ModularCrm.Products.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.Blazor": {
+      "path": "src/ModularCrm.Products.Blazor/ModularCrm.Products.Blazor.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Blazor.Host": {
+      "path": "host/ModularCrm.Products.Blazor.Host/ModularCrm.Products.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "ModularCrm.Products.Blazor.Server": {
+      "path": "src/ModularCrm.Products.Blazor.Server/ModularCrm.Products.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Blazor.WebAssembly": {
+      "path": "src/ModularCrm.Products.Blazor.WebAssembly/ModularCrm.Products.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "ModularCrm.Products.Blazor.Server.Host": {
+      "path": "host/ModularCrm.Products.Blazor.Server.Host/ModularCrm.Products.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

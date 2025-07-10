@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ModularCrm.Products": {
+      "path": "ModularCrm.Products.abpmdl"
+    }
+  }
+}
