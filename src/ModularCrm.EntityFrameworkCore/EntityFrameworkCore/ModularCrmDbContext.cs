@@ -30,7 +30,8 @@ public class ModularCrmDbContext :
     AbpDbContext<ModularCrmDbContext>,
     IIdentityDbContext,
     ITenantManagementDbContext,
-    IProductsDbContext,IOrderingDbContext 
+    IProductsDbContext,
+    IOrderingDbContext 
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
 

@@ -10,6 +10,7 @@ using ModularCrm.Localization;
 using ModularCrm.MultiTenancy;
 using ModularCrm.Web.Menus;
 using Microsoft.OpenApi.Models;
+using ModularCrm.Ordering;
 using ModularCrm.Products;
 using OpenIddict.Validation.AspNetCore;
 using Volo.Abp;
@@ -195,8 +196,9 @@ namespace ModularCrm.Web;
         {
             options.ConventionalControllers.Create(typeof(ModularCrmApplicationModule).Assembly);
     
-            //ADD THE FOLLOWING LINE:
             options.ConventionalControllers.Create(typeof(ProductsApplicationModule).Assembly);
+            options.ConventionalControllers.Create(typeof(OrderingApplicationModule).Assembly);
+
         });
 
     }
